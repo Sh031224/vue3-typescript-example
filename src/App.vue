@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import { onMounted } from "@vue/composition-api";
+import { onMounted } from "vue";
 
 export default {
   name: "App",
