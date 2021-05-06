@@ -5,6 +5,8 @@ export type RootState = {
   counter: CounterState;
 };
 
+// If you have more modules, you have to add them to the type like this.
+// export type Store = CounterStore<Pick<RootState, "counter">> & YourStore<Pick<RootState, "your">>;
 export type Store = CounterStore<Pick<RootState, "counter">>;
 
 const store = createStore({
