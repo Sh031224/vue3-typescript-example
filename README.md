@@ -1,6 +1,6 @@
-# Vue 3 + VueX 4 + Vue Router 4 Example
+# Vue 3 + Vuex 4 + Vue Router 4 Example
 
-⛏ This is an example using vue3 + TypeScript + Vuex 4 + vue-router 4.
+⛏ This is an example using Vue3 + TypeScript + Vuex 4 + vue-router 4.
 
 ## Project setup
 
