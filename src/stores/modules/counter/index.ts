@@ -36,4 +36,5 @@ export const store: Module<State, RootState> = {
 
 export * from "./action-types";
 export * from "./mutation-types";
+export * from "./getter-types";
 export * from "./state";

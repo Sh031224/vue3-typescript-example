@@ -7,6 +7,7 @@
 <script lang="ts">
 import useCounter from "../hooks/useCounter";
 import { mapGetters } from "vuex";
+import { CounterGetters } from "../stores/modules/counter";
 
 export default {
   name: "Main",
@@ -17,7 +18,7 @@ export default {
   },
   computed: {
     // I want to use computed, mapGetters in the useCounter file, but I don't know how to do it yet.
-    ...mapGetters({ count: "counter/count" })
+    ...mapGetters({ count: CounterGetters.GET_COUNTER })
   }
 };
 </script>
